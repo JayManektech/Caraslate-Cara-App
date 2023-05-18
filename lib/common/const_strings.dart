@@ -1,0 +1,25 @@
+//login screen
+const String signInAccount = 'Sign In to your account';
+const String usernameHint = 'Username';
+const String signIn = 'Sign In';
+const String passwordHint = 'Password';
+const String reportGraffiti = "Report Graffiti";
+const String crewChiefTitle = "Crew Chief Checklist\n& Signature";
+const String cleanSlateLogTitle = "CleanSlate Log";
+const String rememberMeTitle = 'Remember me';
+const String reportGraffitiTitle = 'Report Graffiti';
+const String locationTitle = 'Location';
+const String refNumberTitle = 'Reference Number';
+const String noteOfficeTitle = 'Notes for Office';
+const String crewChiefCheckTitle = 'Crew Chief Checklist';
+const String noShowInternTitle = 'No-Show or Late Interns';
+const String otherNoteTitle = 'Other Notes';
+const String submitTitle = 'Submit';
+const String acceptTitle = 'Accept';
+const String redoTitle = 'Redo';
+const String signTitle = 'Signature';
+const String serviceTitle = 'Service Type';
+const String internTimeTitle = 'Intern Time Processing';
+const String operationalInfoTitle = 'Operational Information';
+const String timeDetailTitle = 'Time Details';
+const String logoutTitle = 'Logout';
