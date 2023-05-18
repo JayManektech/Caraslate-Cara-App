@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Sizer(builder: (context, orientation, deviceType) {
       return GetMaterialApp(
-        title: 'Flutter Demo',
+        title: 'Caraslate Cara',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

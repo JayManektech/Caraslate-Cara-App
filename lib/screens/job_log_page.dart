@@ -247,17 +247,28 @@ class _JobLogPageState extends HomeBaseState<JobLogPage> {
                               ]);
                             }).toList(),
                           ),
-                          Container(
-                            height: 5.0.h,
-                            width: 33.0.w,
+                          DataTable(
                             decoration: BoxDecoration(
                                 color: AppColors.lightGreyColor,
                                 border: Border.all(color: Colors.grey)),
-                            child: Center(
-                              child: _textItemTableWidget('Totals',
-                                  bgColor: AppColors.lightGreyColor,
-                                  fontSize: 6.0.sp),
-                            ),
+                            dataRowColor: MaterialStateColor.resolveWith(
+                                (Set<MaterialState> states) =>
+                                    AppColors.whiteColor),
+                            border: TableBorder.all(color: Colors.grey),
+                            columns: [
+                              DataColumn(
+                                label: Container(
+                                  width: 27.0.w,
+                                  child: _textItemTableWidget(
+                                    'Totals',
+                                    bgColor: AppColors.lightGreyColor,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 7.0.sp,
+                                  ),
+                                ),
+                              ),
+                            ],
+                            rows: [],
                           ),
                         ],
                       ),
